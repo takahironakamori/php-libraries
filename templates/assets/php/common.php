@@ -60,6 +60,8 @@ function getStriptTags() {
 
 function getHeader() {
   echo '<header class="header">';
+  echo '<div class="header__container">';
+  echo '</div>';
   echo '</header>';
 }
 
@@ -73,25 +75,30 @@ function getFixedButtons() {
 
 function getDrawer() {
   echo '<div id="mask" class="mask">&nbsp;</div>';
-  echo '<div id="loading" class="loading">&nbsp;</div>';
   echo '<div id="drawer" class="drawer">';
-  echo '<div class="drawer__btn">';
+  echo '<div class="drawer__container">';
+  echo '<div class="drawer__header">';
   // 閉じるボタン
   echo '<button id="drawer-btn__close" class="drawer-btn__close"><img class="drawer-btn__img" src="/assets/img/drawer-btn__close.png" alt=""></button>';
   echo '</div>';
-  echo '<div class="drawer__container">';
+  echo '<div class="drawer__main">';
 
+  echo '</div>';
   echo '</div>';
   echo '</div>';
 }
 
 function getFooter() {
   echo '<footer class="footer">';
+  echo '<div class="footer__container">';
+  echo '</div>';
   echo '</footer>';
 }
 
 function getCopyright() {
   echo '<div class="copyright">';
+  echo '<div class="copyright__container">':
   echo '<p class="copyright__text">Copyright &copy; hogehoge All Rights Reserved.</p>';
+  echo '</div>';
   echo '</div>';
 }

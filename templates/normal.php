@@ -1,6 +1,6 @@
 <?php
 $directory = $_SERVER['DOCUMENT_ROOT'];
-require_once $directory . "/assets/php/common.php";
+require_once $directory . "/recruit/assets/php/common.php";
 
 $title = "";
 $keywords = "";
@@ -27,17 +27,18 @@ $thumbnail = "";
 <?php getLinkTags(); ?>
 </head>
 <body>
-  <div class="page">
-  <?php getHeader(); ?>
-  <main class="main" >
-
-  </main>
-  <?php getAside(); ?>
-  <?php getFooter(); ?>
-  <?php getCopyright(); ?>
-  </div>
-  <?php getFixedButtons(); ?>
-  <?php getDrawer(); ?>
-  <?php getStriptTags(); ?>
+<div class="page">
+<?php getHeader(); ?>
+<main class="main" >
+<div class="main__container">
+</div>
+</main>
+<?php getAside(); ?>
+<?php getFooter(); ?>
+<?php getCopyright(); ?>
+</div><!-- /.page -->
+<?php getFixedButtons(); ?>
+<?php getDrawer(); ?>
+<?php getStriptTags(); ?>
 </body>
 </html>
