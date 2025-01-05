@@ -30,7 +30,7 @@ function getOgImage($thumbnail) {
     $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https://" : "http://";
     $host = $_SERVER['HTTP_HOST'];
     $baseUrl = $protocol . $host . '/';
-    echo $baseUrl . "assets/img/og.ong";
+    echo $baseUrl . "assets/img/og.png";
   } else {
     echo $thumbnail;
   }
@@ -97,7 +97,7 @@ function getFooter() {
 
 function getCopyright() {
   echo '<div class="copyright">';
-  echo '<div class="copyright__container">':
+  echo '<div class="copyright__container">';
   echo '<p class="copyright__text">Copyright &copy; hogehoge All Rights Reserved.</p>';
   echo '</div>';
   echo '</div>';
