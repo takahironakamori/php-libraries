@@ -24,10 +24,10 @@ WordPress等のCMSを使わない、小規模なウェブページ用のテン�
 
 ## Docker
 
-- [PHP(小規模ウェブサイト用)](./docker/php/README.md)
-- [WordPressテーマ開発用](./docker/wordpress/README.md)
-- [【作成中】Next.js-Laravel-MySql](./docker/nextjs-laravel-mysql/README.md)
+- [PHP(小規模ウェブサイト用)](./docker/php/)
+- [WordPressテーマ開発用](./docker/wordpress/)
+- [【作成中】Next.js-Laravel-MySql](./docker/nextjs-laravel-mysql/)
 
 ## Gulp
 
-- [Gulp で Sassと　JS の開発環境を作る](./gulp/README.md)
+- [Gulp で Sassと　JS の開発環境を作る](./gulp/)
