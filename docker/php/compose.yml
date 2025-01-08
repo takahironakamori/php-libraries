@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  web:
+    build:
+      context: ./docker/7.4
+      dockerfile: Dockerfile
+    container_name: php_www
+    volumes:
+       - "./htdocs/:/var/www/html"
+    privileged: true
+    ports:
+      - "8000:80"
