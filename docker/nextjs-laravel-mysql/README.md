@@ -33,7 +33,7 @@ exit
 docker-compose down
 ```
 
-### laravelをインストール
+### laravelをインストール(初回のみ)
 ```
 composer create-project --prefer-dist laravel/laravel app "11.*"
 ```
