@@ -31,3 +31,9 @@ WordPress等のCMSを使わない、小規模なウェブページ用のテン�
 ## Gulp
 
 - [Gulp で Sassと　JS の開発環境を作る](./gulp/)
+
+## Laravel
+
+- [インストール後の初期設定](./laravel/init/)
+- [よく使うコマンド](./laravel/commands/)
+- [APIで認証する仕組みを作る](./laravel/api_auth/)
