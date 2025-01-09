@@ -6,7 +6,8 @@ php artisan install:api
 
 ## User モデルに HasApiTokens を追加
 User モデル（`app/Models/User.php`）に `HasApiTokens` トレイトを追加し, ユーザー認証をトークンで行えるようにする.
--[User.php](./sample/User.php)
+
+- [User.php](./sample/User.php)
 
 ## guards 設定を追加
 `config/auth.php` に認証に必要な `guard` を追加する.
@@ -37,7 +38,7 @@ User モデル（`app/Models/User.php`）に `HasApiTokens` トレイトを追�
 ```
 php artisan make:controller Auth/AuthController
 ```
--[AuthControllerの例](./sample/AuthController.php)
+- [AuthControllerの例](./sample/AuthController.php)
 
 ## 認証ルートの設定
 `routes/api.php` に API のルートを定義する.
