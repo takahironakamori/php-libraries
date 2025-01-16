@@ -19,3 +19,10 @@ php artisan tinker
 ```
 php artisan make:controller hogehogeController
 ```
+
+キャッシュをクリアする
+```
+php artisan config:clear
+php artisan cache:clear
+php artisan config:cache
+```
